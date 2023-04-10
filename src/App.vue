@@ -34,7 +34,7 @@ export default {
     fetchUser () {
       console.log(this.username)
       axios
-        .get(`http://localhost:3000/users/${this.username}`)
+        .get(`https://torre-api-henna.vercel.app/users/${this.username}`) 
         .then((response) => {
           console.log(response.data)
           this.user.name = response.data.person.name
