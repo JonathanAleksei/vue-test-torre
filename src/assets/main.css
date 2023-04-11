@@ -15,6 +15,84 @@ a,
   transition: 0.4s;
 }
 
+#title {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#container {
+  padding: 40px 80px;
+  padding-bottom: 25px;
+  border: rgb(139, 141, 141) 2px solid;
+  border-radius: 10px;
+  background-color: #27292d; 
+  font-size: medium;
+}
+
+#profileimg {
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 18px;
+  box-shadow: 1px 1px 6px rgb(1 1 1 / 40%);
+}
+
+#name {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 1%;
+  padding-bottom: 2%;
+}
+
+#buttonskills{
+  display: block;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin: 0 auto; 
+  margin-top: 5%;
+  background-color: #cddc39;
+  border: 3px solid #27292d;
+  border-radius: 18px;
+  box-shadow: 1px 1px 6px rgb(1 1 1 / 40%);
+  color: rgba(0,0,0,.87);
+  font-size: large;
+}
+
+#buttonskills:hover {
+  background-color: #e3fa14;;
+}
+
+#list{
+  margin-top: 5%;
+  padding-bottom: 5%;
+  padding: 6px 12px;
+  height: unset;
+  margin: 4px 8px 0 0;
+  border: 0;
+  background-color: #383b40;
+  display: inline-flex;
+  border-radius: 32px;
+  transition: all .4s cubic-bezier(.25,.8,.25,1);
+  font-size: 14px;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+ul{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+hr{
+  margin: 3em;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
