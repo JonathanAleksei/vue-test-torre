@@ -80,6 +80,7 @@ a,
   line-height: 16px;
   white-space: nowrap;
   overflow: hidden;
+  color: rgb(238, 241, 228);
 }
 
 ul{
@@ -110,4 +111,7 @@ hr{
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+
+ 
+
 }
